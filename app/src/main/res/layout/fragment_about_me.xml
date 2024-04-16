@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.AboutMeFragment">
+
+
+ <com.google.android.material.imageview.ShapeableImageView
+     android:layout_width="200sp"
+     android:layout_height="200sp"
+     android:id="@+id/imageView1"
+     app:shapeAppearanceOverlay="@style/roundedImageView"
+     android:src="@drawable/sandra"
+     android:layout_marginLeft="95dp"
+     android:layout_marginTop="20dp"
+     android:scaleType="centerCrop"/>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="230dp"
+        android:text="Luwedde Sandra"
+        android:textColor="#01204D"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="I'm an experienced software engineer who constantly seeks out innovative
+solutions to everyday problems. In the years I have been in this industry, I've honed my analytical
+thinking and collaboration skills, and I love working with a team. I've also had the opportunity
+to serve as the software developer at one of the leading companing in Africa."
+        android:textSize="24sp"
+        android:layout_marginTop="290dp"
+        android:layout_marginLeft="25dp"/>
+
+
+</FrameLayout>
